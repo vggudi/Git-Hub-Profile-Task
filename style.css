@@ -11,11 +11,15 @@
         height:150px;
         width: 275px;
     }
+    .mini-content-first-box{
+    height: 500px;
+    width:300px;
+    }
 }
 @media only screen and (min-width: 600px) {
     .mini-content{
         height:50px;
-        width: 400px;
+        width: 200px;
     }
     .mini-content-box{
         height:200px;
@@ -25,8 +29,13 @@
         height:100px;
         width: 200px;
     }
+    .mini-content-first-box{
+        
+        height: 1000px;
+        width:300px;
+    }
 }
-@media only screen and (min-width: 1300px){
+@media only screen and (min-width: 1200px){
     .mini-content{
         height:50px;
         width: 800px;
@@ -38,5 +47,9 @@
     .mini-content-box4{
         height:200px;
         width: 700px;
+    }
+    .mini-content-first-box{
+        height: 500px;
+        width:300px;
     }
 } 
